@@ -1,0 +1,127 @@
+/*   
+Theme Name: blahg
+Theme URI: http://wordpress.wesleymiller.com/blahg/
+Description: A minimal WordPress blog theme.
+Template: mammoth
+Author: Wesley Miller
+Author URI: http://wesleymiller.com/
+Version: 1.0
+*/
+
+* {box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.alignleft, img.alignleft {display:inline;float:left;margin:0 10px 10px 0;}
+.alignright, img.alignright {display:inline;float:right;margin:0 0 10px 10px;}
+.aligncenter, img.aligncenter {clear:both;display:block;margin:5px auto;}
+.wp-caption {text-align:center;}
+.wp-caption img {border:0 none;margin:0;padding:0;}
+.wp-caption p.wp-caption-text {font-size:.85em;margin:0;}
+.wp-smiley {max-height:1em;margin:0 !important;}
+.gallery-caption {font-size:.85em;margin:5px 0 0 0;}
+.gallery {margin:20px auto;overflow:hidden;width:100%;}
+.gallery .gallery-item {float:left;text-align:center;}
+.gallery-item a img {max-width:100% !important;}
+.gallery-columns-2 .gallery-item {margin:1%;width:48%;}
+.gallery-columns-3 .gallery-item {margin:1%;width:31.33%;}
+.gallery-columns-4 .gallery-item {margin:1%;width:23%;}
+.gallery-columns-5 .gallery-item {margin:1%;width:18%;}
+.gallery-columns-6 .gallery-item {margin:1%;width:14.66%;}
+.gallery-columns-7 .gallery-item {margin:1%;width:12.2%;}
+.gallery-columns-8 .gallery-item {margin:1%;width:10.5%;}
+.gallery-columns-9 .gallery-item {margin:1%;width:9.11%;}
+#wp-calendar {margin:20px auto;max-width:200px;text-align:center;width:75%;}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width : 0px) {
+body {font:normal 100% Verdana, sans-serif;}
+h1 {font-size:2em;}
+h2 {font-size:1.5em;}
+h3 {font-size:1.17em;}
+h5 {font-size:.83em;}
+h6 {font-size:.75em;}
+blockquote {background:#eee;padding:1% 3%;line-height:2em;}
+dt {font-weight:bolder;}
+dd {font-style:italic;}
+img, iframe {max-width:100%;}
+iframe {display:block;margin:0 auto;scroll:auto;}
+a:link {color:#000}
+a:visited {color:#666}
+a:hover {background:#eee;}
+a:active {color:#000}
+.container {background:#fff;font-size:1.25em;margin:0 auto;max-width:960px;padding:120px 0;width:90%;}
+.title a {color:#000;font-size:3em;font-weight:bold;text-decoration:none;}
+.post-title a, .page-title a {color:#000;font-size:2em;text-decoration:none;}
+.description {font-size:1em;font-weight:normal;margin:7px 0;}
+#top-nav {background:#eee;left:0;margin:0;overflow:hidden;padding:7px;position:fixed;top:0;width:100%;}
+#top-nav .nav-title {font:small-caps normal 1em Verdana, sans-serif;margin:0 10px 0 0;}
+#top-nav .menu {padding:0;}
+#top-nav .menu-item a {font-size:1em;margin:0 7px 0 0;text-decoration:none;}
+#top-nav .menu-item a:hover {background:#ccc;}
+#top-nav .menu-item,
+#top-nav .menu-item .sub-menu,
+#top-nav .menu-item .sub-menu .menu-item {display:inline-block;list-style-type:none;margin:0;padding:5px 0;}
+#top-nav .menu-item .sub-menu {margin:0 !important;}
+.content {margin:60px 0;}
+.post {margin:80px 0;}
+.post-title a, .page-title a  {text-decoration:none;}
+.page-title {font-size:1.5em;}
+.post-meta, .post-info {font-size:.7em;}
+.post-info {clear:both;}
+.post-content {font-size:1.25em;line-height:1.5em;margin:20px 0;}
+.page-link {clear:both;}
+.page-link a:link {background:#eee;border:1px solid #999;padding:3px;text-decoration:none;}
+.page-link a:visited {background:#eee;border:1px solid #999;color:#000;padding:3px;text-decoration:none;}
+.page-link a:hover, .page-link a:active {background:#999;border:1px solid #eee;padding:3px;text-decoration:none;}
+.post-nav {margin:0 0 80px 0;overflow:hidden;}
+.post-nav a {font-size:.9em;text-decoration:none;}
+.post-nav .previous {float:left;text-align:left;}
+.post-nav .next {float:right;text-align:right;}
+#commentform {width:500px;}
+#comment {display:block;height:300px;margin:20px 0;width:600px;}
+.comments-list .even {background:#eee;}
+.comments-list .odd {background:#ddd;}
+.comment {overflow:hidden;padding:7px;}
+.comments-list .comment-author {float:right;margin:0 0 10px 10px;}
+.comments-list .comment-author span {display:block;text-align:center;width:80px;}
+.comment-meta {font-size:.7em;}
+.comments-list .comment-content {float:left;}
+.comment-reply-link {clear:both;}
+#respond {margin:100px 0;}
+.form-allowed-tags {font-size:.8em;}
+.widget-area {background:#eee;font-size:.8em;overflow:hidden;}
+.widget-area .widget {float:left;margin:2%;min-height:200px;width:29%;}
+#searchform {font-size:1.25em;}
+#searchform #s {display:block;margin:3px 0;}
+footer {clear:both;font-size:.7em;text-align:center;}
+.post-thumbnail {float:left;margin:20px 20px 20px 0;}
+.format-aside .post-content,
+.format-chat .post-content,
+.format-link .post-content,
+.format-status .post-content,
+.format-quote .post-content {background:#f1f1f1;padding:0 0 0 10%;}
+.format-aside .post-content p,
+.format-chat .post-content p,
+.format-link .post-content p,
+.format-status .post-content p,
+.format-quote .post-content p {background:#f9f9f9;padding:2%;}
+.format-quote blockquote {background:none;padding:0;}
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 480px) {
+}
+/* Small Tablet (portrait) ----------- */
+@media only screen and (min-width : 600px) {
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 768px) {
+.container {font-size:.75em;}
+.post-content {font-size:1.15em;}
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 1024px) {
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1280px) {
+}
+/* Large screens ----------- */
+@media only screen and (min-width : 1440px) {
+}
